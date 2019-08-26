@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route,  Switch } from 'react-router-dom';
 import Register from '../auth/Register';
 // import {Redirect} from 'react-router-dom'
 import UploadForm from '../elements/UploadForm'

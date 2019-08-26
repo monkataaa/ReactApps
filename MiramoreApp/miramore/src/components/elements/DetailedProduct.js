@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import reqHandler from '../../utils/reqHandler'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 import '../../styles/DetailedProduct.css'
 import observer from '../../utils/observer'
-import UploadForm from './UploadForm';
 
 
 

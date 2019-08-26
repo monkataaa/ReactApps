@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import reqHandler from '../../utils/reqHandler'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import DeleteProductFromOrder from './DeleteProductFromOrder'
 import observer from '../../utils/observer'
 
 

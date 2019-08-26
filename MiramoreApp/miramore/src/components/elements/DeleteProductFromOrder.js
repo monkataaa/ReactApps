@@ -1,4 +1,3 @@
-import React from 'react'
 import reqHandler from '../../utils/reqHandler'
 import observer from '../../utils/observer'
 

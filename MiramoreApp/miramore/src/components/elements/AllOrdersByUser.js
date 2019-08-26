@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import reqHandler from '../../utils/reqHandler';
-import observer from '../../utils/observer'
-import { BrowserRouter as Redirect, Router, Route, Link, Switch } from 'react-router-dom';
-import FilteredOrder from './FilteredOrder';
+import { BrowserRouter as   Link,  } from 'react-router-dom';
 
 
 class AllOrdersByUser extends Component {
