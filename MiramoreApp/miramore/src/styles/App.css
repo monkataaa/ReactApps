@@ -41,27 +41,31 @@ input[type=text], [type='password'], select {
 .galleryGlobal {
   position: relative;
   margin-left: 75px;
+  margin-top: 48px;
 }
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  border-color: rgb(202, 140, 182);
   float: left;
-  width: 180px;
+  width: 218px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+
 }
 
 div.gallery img {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 190px;
 }
 
 span.price {
   float: right;
   margin-right: 20px;
+  color: rgb(163, 44, 125);
 }
 
 div.desc {
@@ -91,6 +95,10 @@ div.desc {
 
 .galleryImg{
   margin-left: 8px;
+  border-radius: 10px;
+}
+.galleryImg:hover{
+  transform: scale(1.02); 
 }
 .galleryTitle{
  text-align: center;
